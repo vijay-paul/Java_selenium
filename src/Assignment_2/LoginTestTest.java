@@ -36,6 +36,7 @@ public class LoginTestTest {
 		driver.findElement(By.name("submit")).click();
 		assertThat(driver.findElement(By.cssSelector("h3")).getText(), is("Login Successfully"));
 		driver.findElement(By.linkText("Flights")).click();
+		//driver.findElement(By.linkText("Flights")).click();
 		{
 			String value = driver.findElement(By.name("fromPort")).getAttribute("value");
 			assertThat(value, is("Acapulco"));
