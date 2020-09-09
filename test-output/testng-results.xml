@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20015" started-at="2020-08-24T15:17:55 CDT" finished-at="2020-08-24T15:18:15 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20015" started-at="2020-08-24T15:17:55 CDT" finished-at="2020-08-24T15:18:15 CDT">
+      <class name="Assignment_7.FindFlights">
+        <test-method status="PASS" signature="testbegeins()[pri:0, instance:Assignment_7.FindFlights@335eadca]" name="testbegeins" is-config="true" duration-ms="19" started-at="2020-08-24T15:17:55 CDT" finished-at="2020-08-24T15:17:55 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbegeins -->
+        <test-method status="PASS" signature="bookFlight()[pri:1, instance:Assignment_7.FindFlights@335eadca]" name="bookFlight" duration-ms="19934" started-at="2020-08-24T15:17:55 CDT" finished-at="2020-08-24T15:18:15 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+      </class> <!-- Assignment_7.FindFlights -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
